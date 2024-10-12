@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "main": "index.ts",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "dependencies": {
+        "@types/knex": "^0.15.2",
+        "@types/node": "^22.7.5",
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "express-validator": "^7.2.0",
+        "knex": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    }
+}
