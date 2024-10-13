@@ -4,7 +4,7 @@ import express from 'express';
 
 const app = express();
 
-const port = process.env.API_PORT || 3000;
+const port = Number(process.env.API_PORT) || 3000;
 
 app.use(express.json());
 // app.use(
@@ -15,6 +15,6 @@ app.use(express.json());
 // );
 // app.use(cookieParser());
 
-app.listen(3000, 'localhost', () => {
+app.listen(port, 'localhost', () => {
     console.log(`Server listening at localhost:${port}`);
 });
