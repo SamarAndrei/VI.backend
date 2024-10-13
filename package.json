@@ -1,10 +1,14 @@
 {
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "",
+        "dev": "nodemon src/index.ts"
     },
     "main": "index.ts",
     "devDependencies": {
-        "nodemon": "^3.1.7"
+        "@types/express": "^5.0.0",
+        "nodemon": "^3.1.7",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
     },
     "dependencies": {
         "@types/knex": "^0.15.2",
@@ -15,8 +19,6 @@
         "dotenv": "^16.4.5",
         "express": "^4.21.1",
         "express-validator": "^7.2.0",
-        "knex": "^3.1.0",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.6.3"
+        "knex": "^3.1.0"
     }
 }
